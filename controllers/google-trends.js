@@ -55,4 +55,8 @@ exports.postDailyTrends =  (req, res) => {
 
 exports.webhook = (req, res) =>{
     console.log('this is a webhook called');
+    res.status(200).json({
+        success: true,
+        data: {}
+    });
 }
