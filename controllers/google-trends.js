@@ -51,3 +51,8 @@ exports.postDailyTrends =  (req, res) => {
         }
     });
 };
+
+
+exports.webhook = (req, res) =>{
+    console.log('this is a webhook called');
+}
